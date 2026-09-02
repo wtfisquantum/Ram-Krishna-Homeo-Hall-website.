@@ -41,7 +41,7 @@ jobs:
         working-directory: artifacts/ram-krishna-homeo-hall
         env:
           PORT: 5173
-          BASE_PATH: /Ram-Krishna-Homeo-Hall-website./
+          BASE_PATH: /
         run: pnpm build
 
       - name: Setup Pages
