@@ -22,7 +22,7 @@ const whatsapp = 'https://wa.me/917765971510';
 const email = 'ramkrishnahomeo@gmail.com';
 const mapsLink = 'https://maps.app.goo.gl/UebZ9TUCkw3Mgd4c6';
 const doctorName = 'Dr. Ramkrishna Prasad';
-const doctorEducation = 'B.H.M.S';
+const doctorEducation = 'B.H.M.S Reg No. - BR/3447/21';
 
 
 const navItems = [
