@@ -15,6 +15,7 @@ import img7 from "./images/img7.jpeg";
 import img8 from "./images/img8.jpeg";
 import img9 from "./images/img9.jpeg";
 import img10 from "./images/img10.jpeg";
+import img11 from "./images/img10.jfif"
 
 const queryClient = new QueryClient();
 const phone = '7765971510';
@@ -303,6 +304,7 @@ function AppContent() {
         <section className="doctor section-pad" id="doctor">
           <div className="container-rk contact-grid">
             <div className="contact-card reveal">
+              <img src={img11} />
               <div className="eyebrow" style={{ color: 'hsl(44 89% 58%)' }}>Meet the doctor</div>
               <h3>{doctorName}</h3>
               <p>{doctorEducation} — homeopathic consultation available at Ram Krishna Homeo Hall and Clinic. Book a slot and we will confirm the timing with you on WhatsApp.</p>
